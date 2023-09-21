@@ -45,9 +45,9 @@ print(s)
 
 ## Ссылки
 
-[Обычная ссылка в строке](<https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5>)
+[Обычная ссылка в строке](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
-[Обычная ссылка с title](<https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5> "Шпаркалка Markdown")
+[Обычная ссылка с title](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5 "Шпаркалка Markdown")
 
 [Ссылка со сноской][Произвольный регистронезависимый текст]
 
@@ -55,10 +55,10 @@ print(s)
 
 [Для ссылок со сноской можно использовать цифры][1]
 
-Или можно просто вставить ссылку в квадратные скобки [текст ссылки]
+Или можно просто вставить ссылку в квадратные скобки [https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5]
 
 Произвольный текст, после которого можно привести ссылки.
 
-[произвольный регистронезависимый текст]: <https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5>
-[1]: <https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5>
-[текст ссылки]: <https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5>
+[произвольный регистронезависимый текст]: https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5
+[1]: https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5
+[текст ссылки]: https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5
