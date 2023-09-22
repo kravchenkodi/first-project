@@ -32,6 +32,8 @@
 [Шпаргалка Markdown](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)  
 [еще](https://www.markdownguide.org/cheat-sheet/)  
 [и еще](https://doka.guide/tools/markdown/)
+### mermaid schemes
+[mermaid schemes](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
 
 ## Инициализируем репозиторий
 ### Сделать папку репозиторием — `git init`
@@ -356,15 +358,15 @@ Git сообщит об этом с помощью статуса modified`: ф�
 
 ```mermaid
   flowchart TD;
-      %% git add
+      iframe->>dotcom: git add
       untracked-->staged;
-      %% git commit
+      iframe->>dotcom: git commit
       staged-->tracked;
-      %% file's changies
+      iframe->>dotcom: file's changies
       tracked-->modified;
-      %% git add
+      iframe->>dotcom: git add
       modified-->staged;
-      %% file's changies
+      iframe->>dotcom: file's changies
       staged-->modified;
 ```
 
