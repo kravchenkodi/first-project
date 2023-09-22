@@ -358,21 +358,12 @@ Git сообщит об этом с помощью статуса modified`: ф�
 ### SCHEME
 
 ```mermaid
-      sequenceDiagram
-      participant dotcom
-      participant iframe
-      participant viewscreen
-      # еще есть flowchart TD;
-      iframe->>dotcom: git add
-      untracked-->staged;
-      iframe->>dotcom: git commit
-      staged-->tracked;
-      iframe->>dotcom: file's changies
-      tracked-->modified;
-      iframe->>dotcom: git add
-      modified-->staged;
-      iframe->>dotcom: file's changies
-      staged-->modified;
+      flowchart TD;
+      untracked-->|git add| staged; 
+      staged-->|git commit| tracked;
+      tracked-->|file's changies| modified;
+      modified-->|git add| staged;
+      staged-->|file's changies| modified;
 ```
 
 ## git status
