@@ -34,6 +34,7 @@
 [и еще](https://doka.guide/tools/markdown/)
 ### mermaid schemes
 [mermaid schemes](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
+[и еще](https://docs.github.com/ru/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams)
 
 ## Инициализируем репозиторий
 ### Сделать папку репозиторием — `git init`
@@ -357,7 +358,11 @@ Git сообщит об этом с помощью статуса modified`: ф�
 ### SCHEME
 
 ```mermaid
-  flowchart TD;
+      sequenceDiagram
+      participant dotcom
+      participant iframe
+      participant viewscreen
+      # еще есть flowchart TD;
       iframe->>dotcom: git add
       untracked-->staged;
       iframe->>dotcom: git commit
