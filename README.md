@@ -32,6 +32,7 @@
 [Шпаргалка Markdown](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)  
 [еще](https://www.markdownguide.org/cheat-sheet/)  
 [и еще](https://doka.guide/tools/markdown/)
+[LaTeX: индексы, степени, корни](http://www.astronet.ru/db/msg/eid/latex%20/power.html)
 ### mermaid schemes
 [mermaid schemes](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)  
 [и еще](https://docs.github.com/ru/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams)  
@@ -771,3 +772,6 @@ build/
 * Посмотреть, что игнорируется, можно с помощью команды `git status --ignored`.
 * Сам файл `.gitignore` — это обычный файл в репозитории. Его тоже стоит закоммитить.
 * Шаблонов много, но их легко найти в интернете вместе с примерами использования.
+
+## Посмотреть содержимое коммита
+`git show` и указать `id` коммита (хэш)
